@@ -48,6 +48,5 @@ def scrabble(word)
     "y" => 4,
     "z" => 10,
   }
-  # Q5 CODE HERE
   word.split("").map!{|item| values[item]}.sum
 end
